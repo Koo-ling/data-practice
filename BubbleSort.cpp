@@ -4,7 +4,7 @@
 using namespace std;
 void print(int a[], int n) {
 	for (int i = 0; i <= n-1; i++) {
-		cout << a[i] << " ";
+		cout << a[i] << " "<<“ 曾多次”;
 	}
 	cout << endl;
 }

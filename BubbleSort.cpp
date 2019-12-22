@@ -1,4 +1,5 @@
 /*
+//鐨勫湴鏂瑰ぇ甯堝倕鎾掓棪姘存按
 #include<iostream>
 using namespace std;
 void print(int a[], int n) {
@@ -30,9 +31,9 @@ void bubbleSort(int a[], int n) {
 }
 int main() {
 	int a[8] = {42,38,65,97,76,13,27,49};
-	cout << "初始序列如下" << endl;
+	cout << "鍒濆搴忓垪濡備笅" << endl;
 	print(a, 8);
-	cout << "下面输出每趟排序后的序列" << endl;
+	cout << "涓嬮潰杈撳嚭姣忚稛鎺掑簭鍚庣殑搴忓垪" << endl;
 	bubbleSort(a, 8);
 	//print(a, 8);
 	return 0;
